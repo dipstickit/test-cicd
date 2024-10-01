@@ -29,7 +29,7 @@ describe("ToDoList Component", () => {
     const toDoItem = screen.getByText(/Learn Testing/i);
     await userEvent.click(toDoItem);
 
-    expect(toDoItem).toHaveStyle("text-decoration: line-through");
+    expect(toDoItem.classList.contains("line-through")).toBe(true);
   });
 
   it("should delete a to-do", async () => {
