@@ -10,7 +10,7 @@ const Home: React.FC = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white p-6">
       <div className="w-full max-w-2xl bg-gray-700 rounded-lg shadow-md p-8 text-center">
         <h1 className="text-4xl font-extrabold text-blue-500 mb-6">
-          Welcome to Next.js with TypeScript!
+          Welcome to Hola Hola!
         </h1>
         <p className="text-lg mb-6">
           You have clicked the button {count} times.
